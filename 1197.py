@@ -1,8 +1,3 @@
-import sys
-
-sys.setrecursionlimit(100000)
-
-
 def find_parent(parent, x):
     while parent[x] != x:
         x = parent[x]
